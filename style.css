@@ -10,6 +10,10 @@ body {
     text-align: center;
 }
 
+main{
+    height: 100vmin;
+}
+
 .container{ 
     height: 70vh;
     display: flex;
@@ -86,4 +90,14 @@ body #newGame:hover {
 
 .hide {
     display: none;
+}
+
+.footer {
+    height: 20vmin;
+    background-color: #000;
+    padding: 5vmin;
+    margin: 5vmin 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
